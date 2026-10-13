@@ -10,7 +10,6 @@
 
 This project analyses a star-schema sales data warehouse (`gold` layer) containing **60,398 sales lines**, **18,484 customers** and **295 products**. It walks through a structured analytics workflow: **Exploratory Data Analysis (EDA)** to understand the data, then **advanced analytics** to uncover trends, segments and performance drivers, and finally **reporting views** that package the results for BI tools.
 
-![Project roadmap](docs/img/project_roadmap.png)
 
 ## 🧱 Data Model
 
@@ -74,7 +73,6 @@ Alternative: restore `datasets/DataWarehouseAnalytics.bak` in SSMS instead of st
 ├── datasets/
 │   ├── flat-files/          # dim_customers.csv, dim_products.csv, fact_sales.csv
 │   └── DataWarehouseAnalytics.bak
-├── docs/                    # roadmap and project notes
 ├── scripts/                 # 00-13 numbered SQL scripts
 ├── LICENSE
 └── README.md
@@ -83,7 +81,7 @@ Alternative: restore `datasets/DataWarehouseAnalytics.bak` in SSMS instead of st
 
 ## 🙏 Credits
 
-Built following the *SQL Data Analytics* tutorial by **Baraa Khatib Salkini ([Data With Baraa](https://www.youtube.com/@datawithbaraa))**. Dataset and original roadmap are from that course; Analysis extensions are my own.
+Built following the *SQL Data Analytics* tutorial by **Baraa Khatib Salkini ([Data With Baraa](https://www.youtube.com/@datawithbaraa))**. Dataset is from that course; Analysis extensions are my own.
 
 ## 🛡️ License
 
