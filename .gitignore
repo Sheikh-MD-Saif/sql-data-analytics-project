@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SQL Server local artifacts
+*.ldf
+*.mdf
+*.log
+
+# Secrets
+.env
+*.env
